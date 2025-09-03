@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "FAVMOVIE-WEDE",
+			"path": ".."
+		},
+		{
+			"name": "LEC1",
+			"path": "../../LEC1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FAVMOVIE-WEDE"
+	}
+}
