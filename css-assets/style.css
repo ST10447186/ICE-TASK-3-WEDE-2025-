@@ -71,3 +71,75 @@ a:hover {
     color: #89c4ff;
     text-decoration: underline;
 }
+
+/* General container styling */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Intro text */
+  .intro-text {
+    font-size: 1.1em;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact card */
+  .contact-card {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    text-align: left;
+  }
+  
+  /* Form labels */
+  .contact-card label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Inputs & textarea */
+  .contact-card input,
+  .contact-card textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #2c2c2c;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  /* Placeholder text */
+  .contact-card input::placeholder,
+  .contact-card textarea::placeholder {
+    color: #aaa;
+  }
+  
+  /* Submit button */
+  .contact-card button {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #007bff, #00d4ff);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Hover effect */
+  .contact-card button:hover {
+    background: linear-gradient(90deg, #0056b3, #00a6c7);
+    transform: scale(1.03);
+  }
+  
